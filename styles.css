@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    margin: 15px;
+    position: relative;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+
+.navbar .material-symbols-outlined{
+    color: gray;
+    
+}
+
+.navbar .material-symbols-outlined:hover{
+    cursor: pointer;
+    
+}
+
+.navbar .button{
+    height: 36px;
+    width: 96px;
+    background-color: #1a73e8;
+    border: 1px #e0e0e0;
+    border-radius: 3px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navbar .button:hover{
+    background-color: #1b66c9;
+    cursor: pointer;
+}
+
+.main {
+    margin: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main_logo img{
+
+    height: 92px;
+    width: auto;
+
+}
+
+.main_logo .Gap{
+    display: block;
+    width: 100%;
+
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_box{
+    padding: 20px;
+    width: 582px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 36px;
+
+}
+
+.search_box .material-symbols-outlined{
+    color: grey;
+    padding: 4px;
+
+}
+
+.search_box .search_box__input{
+   
+    width: 443px;
+    height: 36px;
+    
+
+    border: none;
+    
+}
+
+.search_box .search_box__input:focus{
+    outline: none;
+}
+
+@media only screen and (max-width:590px) {
+    .search_box{
+        width: 70%;
+        height: 44px;
+    }
+}
+
+@media only screen and (max-width:350px){
+    .search_box{
+        width: 90%;
+        height: 44px;
+    }
+    .main_logo img {
+    
+        height: 56px;
+        width: auto;
+    
+    }
+}
+
+
+.search__buttons{
+   
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    
+}
+
+.search__buttons .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.buttons button{
+    height: 36px;
+    width: 144px;
+    background-color: #f8f9f8;
+    border: 1px #e0e0e0;
+    border-radius: 3px;
+    gap: 2px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.info p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+
+.info a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #1a0dab;
+    
+}
+
+.offer {
+    margin: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.offer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+
+.offer a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #1a0dab;
+
+}
+
+.info a:hover {
+    text-decoration: underline;
+}
+.offer a:hover {
+    text-decoration: underline;
+}
+
+.footer_container{
+    width: 100%;
+    height: 96px;
+    position: absolute ;
+    bottom: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #70757a;
+    background-color: #eeeded;
+    border: none;
+}
+
+
+.footer_section_1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   height: 46px;
+   padding: 15px 30px;
+
+}
+
+.footer_section_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:48px;
+    border-top: 1px solid #d0cece;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.footer_section_2 .grid_1 a{
+    text-decoration: none;
+    color: #70757a;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer_section_2 .grid_2 a {
+    text-decoration: none;
+    color: #70757a;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer_section_2 a:hover{
+    text-decoration: underline;
+}
